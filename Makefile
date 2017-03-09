@@ -7,6 +7,7 @@ deps:
 	bundle
 
 setup: install.gem
+	bundle install
 
 install.gem:
-	gem install jekyll bundler
+	sudo gem install jekyll bundler
