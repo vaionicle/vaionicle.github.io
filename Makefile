@@ -1,4 +1,4 @@
-JEKYLL_VERSION=3.8
+JEKYLL_VERSION=4.0
 JEKYLL_PATH=/srv/jekyll
 
 run:
