@@ -27,7 +27,7 @@ github_username:  vaionicle
 # Build settings
 markdown: kramdown
 #theme: minima
-theme: jekyll-theme-midnight
+theme: jekyll-theme-slate
 gems:
   - jekyll-feed
 exclude:
