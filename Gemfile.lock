@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     activesupport (4.2.11.1)
       i18n (~> 0.7)
@@ -244,13 +244,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll
-  jekyll-feed
-  jekyll-seo-tag
-  jekyll-theme-slate
-  tzinfo-data
-
-RUBY VERSION
-   ruby 2.6.4p104
 
 BUNDLED WITH
    2.0.2
