@@ -1,8 +1,18 @@
 JEKYLL_VERSION=4.0
 JEKYLL_PATH=/srv/jekyll
 
-sync.wiki:
-	
+wiki.init:
+	git submodule init
+	git submodule update
+
+wiki.init_1:
+	rm -rf wiki
+	git remote add git-wiki-source git@github.com:Drassil/git-wiki.git
+	git submodule add git@github.com:vaionicle/vaionicle.github.io.wiki.git wiki
+
+# wiki.sync:
+# 	cd wiki
+# 	git 
 
 build:
 	docker run \
