@@ -6,4 +6,14 @@ layout: "null"
 
 #git-wiki-toc ol {
 	margin: 0px 0px;
+	padding: 0px 0px 0px 25px;
+}
+
+#git-wiki-toc > ol {
+	padding: 0px 0px 0px 20px !important;
+	list-style-type: none;
+}
+
+#git-wiki-content {
+	padding: 25px 0px;
 }
