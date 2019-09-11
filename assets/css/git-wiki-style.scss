@@ -4,6 +4,14 @@ layout: "null"
 
 @import "git-wiki-style.scss";
 
+.git-wiki-main-logo h1 {
+	text-align: center !important;
+}
+
+#git-wiki-search {
+	padding: 5px 0px 0px 0px;	
+}
+
 #git-wiki-toc ol {
 	margin: 0px 0px;
 	padding: 0px 0px 0px 30px;
