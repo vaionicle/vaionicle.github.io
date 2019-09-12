@@ -4,6 +4,10 @@ layout: "null"
 
 @import "git-wiki-style.scss";
 
+.git-wiki-page > section > hr {
+	margin: 20px 0px 0px 0px;
+}
+
 .git-wiki-main-logo h1 {
 	text-align: center !important;
 }

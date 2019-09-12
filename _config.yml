@@ -1,7 +1,7 @@
 # (string) Title of your wiki
 title: v.tsaknis@blog
 # (string) Description of your wiki
-description:
+description: "Time to hack"
 # (boolean) Enable/disable wiki page list in sidebar
 show_wiki_pages: true
 # (integer) Maximum number of wiki page to shown in sidebar
@@ -17,7 +17,7 @@ paginate: 5
 paginate_path: "/blog/page:num"
 permalink: /blog/posts/:year/:month/:day/:title:output_ext
 # (boolean) Enable/disable download buttons in sidebar
-show_downloads: false
+show_downloads: true
 # (string) specify git-wiki host. (github or gitlab)
 service: "github"
 # (string) Specify branch rendered by gitpages allowing wiki tool buttons to work
@@ -108,7 +108,7 @@ plugins:
 #
 
 inc_before_toc : 
-inc_after_toc : 
+inc_after_toc : vaionicle/_after_toc.html
 inc_before_content : 
 inc_after_content : 
 inc_before_footer : 
