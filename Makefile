@@ -8,11 +8,10 @@ wiki.init:
 wiki.init_1:
 	rm -rf wiki
 	git remote add git-wiki-source git@github.com:Drassil/git-wiki.git
-	git submodule add git@github.com:vaionicle/vaionicle.github.io.wiki.git wiki
+	git submodule add https://github.com/vaionicle/vaionicle.github.io.wiki.git wiki
 
-# wiki.sync:
-# 	cd wiki
-# 	git 
+wiki.sync:
+	./sync-wiki.sh
 
 build:
 	docker run \
