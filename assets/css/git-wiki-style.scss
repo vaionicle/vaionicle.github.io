@@ -4,8 +4,15 @@ layout: "null"
 
 @import "git-wiki-style.scss";
 
-.git-wiki-page > section > hr {
-	margin: 20px 0px 0px 0px;
+.m-1 {
+	margin: 10px;
+}
+.m-2 {
+	margin: 20px;
+}
+
+hr {
+	margin: 10px 0px !important;
 }
 
 .git-wiki-main-logo h1 {
@@ -14,6 +21,16 @@ layout: "null"
 
 .git-wiki-search {
 	padding: 5px 0px 0px 0px;	
+}
+
+#git-wiki-content {
+	padding: 10px 0px;
+}
+
+
+
+#git-wiki-toc {
+	padding: 10px 0px;
 }
 
 #git-wiki-toc ol {
@@ -33,8 +50,4 @@ layout: "null"
 
 #git-wiki-toc > ol > li:first-child > ol > li {
 	padding: 10px 0px 0px 0px !important;
-}
-
-#git-wiki-content {
-	padding: 25px 0px;
 }
