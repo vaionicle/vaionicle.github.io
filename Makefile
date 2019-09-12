@@ -25,5 +25,6 @@ serve:
 		--rm -it \
 		--volume="${PWD}:${JEKYLL_PATH}" \
 		-p 4000:4000 \
+		-p 35729:35729 \
 		jekyll/jekyll:${JEKYLL_VERSION} \
 		jekyll serve --force_polling --livereload
