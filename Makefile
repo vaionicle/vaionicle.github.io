@@ -26,5 +26,13 @@ serve:
 		--volume="${PWD}:${JEKYLL_PATH}" \
 		-p 4000:4000 \
 		-p 35729:35729 \
+		--name "wiki" \
 		jekyll/jekyll:${JEKYLL_VERSION} \
 		jekyll serve --force_polling --livereload
+
+attach:
+	docker exec \
+		-it \
+		jekyll/jekyll:${JEKYLL_VERSION} \
+		--name "wiki" \
+		/bin/bash
