@@ -1,0 +1,56 @@
+---
+layout: "null"
+---
+
+@import "git-wiki-style.scss";
+
+.m-1 {
+	margin: 10px;
+}
+.m-2 {
+	margin: 20px;
+}
+
+hr {
+	margin: 10px 0px !important;
+}
+
+.git-wiki-main-logo h1 {
+	text-align: center !important;
+}
+
+.git-wiki-search {
+	padding: 5px 0px 0px 0px;	
+}
+
+#git-wiki-content {
+	padding: 10px 0px;
+}
+
+#git-wiki-mobile-header {
+	left: 0px;
+	border-radius:0px !important;
+}
+
+#git-wiki-toc {
+	padding: 10px 0px;
+}
+
+#git-wiki-toc ol {
+	margin: 0px 0px;
+	padding: 0px 0px 0px 30px;
+}
+
+#git-wiki-toc > ol {
+	padding: 0px 0px 0px 0px !important;
+	list-style-type: none;
+}
+
+#git-wiki-toc > ol > li:first-child > ol {
+	padding: 0px 0px 0px 0px !important;
+	list-style-type: none;
+}
+
+#git-wiki-toc > ol > li:first-child > ol > li {
+	padding: 10px 0px 0px 0px !important;
+}
