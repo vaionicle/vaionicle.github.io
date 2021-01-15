@@ -22,7 +22,7 @@ theme:
 	rm -rf --interactive=never v${THEME_VERSION}.tar.gz
 	rm -rf git-wiki-theme-${THEME_VERSION}
 
-
+	rsync -av ./overrides/ ./src/
 
 build:
 	docker run --rm -it --volume="${PWD}/src:${JEKYLL_PATH}" jekyll/jekyll:${JEKYLL_VERSION} jekyll build
