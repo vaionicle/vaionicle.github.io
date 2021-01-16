@@ -160,7 +160,7 @@ inc_before_header :
 inc_after_header : 
 
 inc_before_tail : 
-inc_after_tail : 
+inc_after_tail : vaionicle/sections/tail/tail.html
 
 inc_before_tools : 
 inc_after_tools : 
