@@ -136,8 +136,8 @@ plugins:
 # Check wiki documentation to learn how they work
 #
 
-inc_before_toc : vaionicle/_before_toc.html
-inc_after_toc : vaionicle/_after_toc.html
+inc_before_toc : vaionicle/table-of-contents/_before_toc.html
+inc_after_toc : vaionicle/table-of-contents/_after_toc.html
 inc_before_content : 
 inc_after_content : 
 
