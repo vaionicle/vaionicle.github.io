@@ -144,11 +144,11 @@ inc_after_content :
 inc_before_footer : 
 inc_after_footer : 
 
-inc_before_head : vaionicle/head/_metadata.html
+inc_before_head : 
 inc_after_head : 
 
 inc_before_meta : 
-inc_after_meta : 
+inc_after_meta :  vaionicle/head/_metadata.html
 
 inc_before_scripts : 
 inc_after_scripts : 
