@@ -144,7 +144,7 @@ inc_after_content :
 inc_before_footer : 
 inc_after_footer : 
 
-inc_before_head : vaionicle/_header.html
+inc_before_head : vaionicle/head/_metadata.html
 inc_after_head : 
 
 inc_before_meta : 
