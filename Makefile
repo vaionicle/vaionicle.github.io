@@ -3,6 +3,10 @@ JEKYLL_VERSION=4.2.0
 JEKYLL_PATH=/srv/jekyll
 
 wiki.init:
+	git submodule init
+	git submodule update
+
+wiki.add:
 	git submodule add --name vaionicles-wiki https://github.com/vaionicle/vaionicle.github.io.wiki.git wiki
 
 wiki.sync:
