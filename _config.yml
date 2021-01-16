@@ -154,7 +154,7 @@ inc_before_scripts :
 inc_after_scripts : 
 
 inc_before_styles : 
-inc_after_styles : 
+inc_after_styles : vaionicle/head/style.html
 
 inc_before_header : 
 inc_after_header : 
