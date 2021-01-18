@@ -75,7 +75,15 @@ footer {
 	padding-left: 40px;
 }
 
+body {
+	padding: 30px;
+}
+
 @media print, screen and (max-width: 992px) {
+	body {
+		padding: 20px;
+	}
+
 	.git-wiki-page {
 		padding-left: 0px;
 	}
@@ -83,10 +91,23 @@ footer {
 	.git-wiki-page, footer {
         padding: 20px 0;
     }
+
+	#git-wiki-sidebar {
+		padding-right: 0px;
+	}
 }
 
 @media print, screen and (max-width: 960px) {
+
+	body {
+		padding: 20px;
+	}
+
     .git-wiki-page, footer {
         padding: 20px 0;
     }
+
+	#git-wiki-sidebar {
+		padding-right: 0px;
+	}
 }
