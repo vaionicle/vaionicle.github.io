@@ -63,7 +63,12 @@ google_cse_token:
 # If you have _config.yml and your site in a subfolder, then change this config accordly 
 site_root: 
 
-#
+# Comment section
+# - disqus
+comment_type:
+comment_id:
+
+  #
 # Jekyll configurations
 #
 
@@ -169,7 +174,7 @@ inc_before_toc : vaionicle/table-of-contents/_before_toc.html
 inc_after_toc : vaionicle/table-of-contents/_after_toc.html
 
 inc_before_content :
-inc_after_content :
+inc_after_content : vaionicle/_comments.html
 
 inc_before_tail :
 inc_after_tail : vaionicle/sections/tail/tail.html
