@@ -3,8 +3,10 @@ remote_theme: Drassil/git-wiki-theme@52292168719209c08fa1a4edf88ca1bb4397a8b2
 # (string) Title of your wiki
 title: vaionicle
 
+name: vaionicle.github.io
+
 # (string) Description of your wiki
-description: Welcome to my blog
+description: Welcome to V
 
 # (boolean) Enable/disable wiki page list in sidebar
 show_wiki_pages: true

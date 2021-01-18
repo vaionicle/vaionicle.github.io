@@ -1,11 +1,48 @@
+<meta name="robots" content="max-image-preview:large" />
 
-<meta property="og:image" content="{{ '/assets/images/command_prompt.png' | relative_url }}" />
-<meta property="og:image:secure_url" content="{{ '/assets/images/command_prompt.png' | relative_url }}" />
+<meta name="application-name" content="{{ site.title }}" />
+
+<meta property="og:image" content="{{ '/assets/images/command_prompt.png?v=' | append: site.github.build_revision | relative_url }}" />
+<meta property="og:image:secure_url" content="{{ '/assets/images/command_prompt.png?v=' | append: site.github.build_revision | relative_url }}" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="628" />
 
-<link rel="icon" sizes="32x32" href="{{ '/assets/images/command_prompt.png' | relative_url }}" />
-<link rel="icon" sizes="192x192" href="{{ '/assets/images/command_prompt.png' | relative_url }}"/>
 
-<link rel="apple-touch-icon-precomposed" href="{{ '/assets/images/command_prompt.png' | relative_url }}" />
-<meta name="msapplication-TileImage" content="{{ '/assets/images/command_prompt.png' | relative_url }}" />
+<!-- Icons -->
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/command_prompt.png?v=' | append: site.github.build_revision | relative_url }}">  
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/command_prompt.png?v=' | append: site.github.build_revision | relative_url }}">  
+<link rel="icon" type="image/png" sizes="96x96" href="{{ '/assets/images/command_prompt.png?v=' | append: site.github.build_revision | relative_url }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/images/command_prompt.png?v=' | append: site.github.build_revision | relative_url }}"/>
+
+
+<!-- Apple Icons -->
+<link rel="apple-touch-icon"                 href="{{ '/assets/images/command_prompt.png?v=' | append: site.github.build_revision | relative_url }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/command_prompt.png?v=' | append: site.github.build_revision | relative_url }}"> 
+<link rel="apple-touch-icon" sizes="152x152" href="{{ '/assets/images/command_prompt.png?v=' | append: site.github.build_revision | relative_url }}"> 
+<link rel="apple-touch-icon" sizes="167x167" href="{{ '/assets/images/command_prompt.png?v=' | append: site.github.build_revision | relative_url }}">
+
+
+<!-- Android Icons -->
+<link rel="manifest" href="/manifest.json?v=20180713" />
+<meta name="theme-color" content="#000000" />
+
+
+<!-- Safari Icons -->
+<link rel="mask-icon" href="{{ '/assets/images/command_prompt.png?v=' | append: site.github.build_revision | relative_url }}" color="#000000" />
+
+
+<!-- Windows Icons -->
+<meta name="msapplication-TileImage" content="{{ '/assets/images/command_prompt.png?v=' | append: site.github.build_revision | relative_url }}" />
+<meta name="msapplication-tooltip" content="{{ site.description }}" />
+<meta name="msapplication-starturl" content="/" />
+<meta name="msapplication-window" content="width=1024;height=800" />
+<meta name="msapplication-navbutton-color" content="#4C9A40" />
+<meta name="msapplication-config" content="{{ '/browserconfig.xml?v=' | append: site.github.build_revision | relative_url }}" />
+
+
+<link rel="shortcut icon" href="{{ '/favicon.ico?v=' | append: site.github.build_revision | relative_url }}" />
+
+{% comment %} <meta name="alexaVerifyID" content="ho0YShO2WbsPycxOgZxd78EeZQc" /> {% endcomment %}
+{% comment %} <meta property="fb:app_id" content="423671401029644" /> {% endcomment %}
+{% comment %} <meta name="twitter:site" content="zougla_online" /> {% endcomment %}
+{% comment %} <meta name="twitter:card" content="summary_large_image" /> {% endcomment %}

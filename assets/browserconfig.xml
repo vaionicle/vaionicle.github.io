@@ -1,0 +1,18 @@
+---
+layout: none
+sitemap: false
+is_wiki_page: false
+permalink: /browserconfig.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square70x70logo src="{{ '/assets/images/command_prompt.png?v=' | append: site.github.build_revision | relative_url }}"/> 
+      <square150x150logo src="{{ '/assets/images/command_prompt.png?v=' | append: site.github.build_revision | relative_url }}"/>
+      <square310x310logo src="{{ '/assets/images/command_prompt.png?v=' | append: site.github.build_revision | relative_url }}"/>
+      <wide310x150logo src="{{ '/assets/images/command_prompt.png?v=' | append: site.github.build_revision | relative_url }}"/>
+      <TileColor>#000000</TileColor>
+    </tile>
+  </msapplication>
+</browserconfig>
