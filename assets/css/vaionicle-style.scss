@@ -2,6 +2,10 @@
 layout: "null"
 ---
 
+/**
+ * vaionicle style starts 
+*/
+
 .m-1 {
 	margin: 10px;
 }
@@ -21,34 +25,68 @@ hr {
 	padding: 5px 0px 0px 0px;	
 }
 
-#git-wiki-content {
-	padding: 10px 0px;
-}
-
 #git-wiki-mobile-header {
 	left: 0px;
 	border-radius:0px !important;
 }
 
-#git-wiki-toc {
+#git-wiki-content {
 	padding: 10px 0px;
+
+	h1:first-child {
+		display: none;
+	}
 }
 
-#git-wiki-toc ol {
-	margin: 0px 0px;
-	padding: 0px 0px 0px 30px;
+#git-wiki-sidebar {
+	.git-wiki-downloads li a strong {
+		padding: 4px 0px;
+	}
+
+	.git-wiki-page-list ul {
+		padding: 6px 20px
+	}
 }
 
-#git-wiki-toc > ol {
-	padding: 0px 0px 0px 0px !important;
-	list-style-type: none;
+#git-wiki-toc {
+	padding: 10px 0px 0px 0px;
+	list-style: none;
+	list-style-position: inside;
+
+	ol {
+		margin: 0px 0px;
+		padding-left: 20px;
+		list-style: lower-greek;
+		list-style-position: inside;
+
+		ol {
+			list-style: lower-alpha;
+			list-style-position: inside;
+
+			ol {
+				list-style: circle;
+				list-style-position: inside;
+			}
+		}
+	}
 }
 
-#git-wiki-toc > ol > li:first-child > ol {
-	padding: 0px 0px 0px 0px !important;
-	list-style-type: none;
+footer {
+	padding-left: 40px;
 }
 
-#git-wiki-toc > ol > li:first-child > ol > li {
-	padding: 10px 0px 0px 0px !important;
+@media print, screen and (max-width: 992px) {
+	.git-wiki-page {
+		padding-left: 0px;
+	}
+
+	.git-wiki-page, footer {
+        padding: 20px 0;
+    }
+}
+
+@media print, screen and (max-width: 960px) {
+    .git-wiki-page, footer {
+        padding: 20px 0;
+    }
 }
