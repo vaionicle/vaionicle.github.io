@@ -9,12 +9,12 @@ description: Welcome to my blog
 # (boolean) Enable/disable wiki page list in sidebar
 show_wiki_pages: true
 # (integer) Maximum number of wiki page to shown in sidebar
-show_wiki_pages_limit: 20
+show_wiki_pages_limit: 50
 
 # (boolean) Enable/disable wiki posts list in sidebar (needs blog_feature enabled)
 show_wiki_posts: true
 # (integer) Maximum number of wiki posts to shown in sidebar
-show_wiki_posts_limit: 20
+show_wiki_posts_limit: 50
 
 # (boolean) Enable/disable blog feature
 blog_feature: true
