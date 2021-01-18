@@ -13,12 +13,17 @@ permalink: /manifest.json
 	"display": "standalone",
 	"icons": [
 		{
-			"src": "{{ '/assets/images/command_prompt.png?v=' | append: site.github.build_revision | relative_url }}",
-			"sizes": "192x192",
+			"src": "{{ '/assets/images/iconfinder_terminal_x128.png?v=' | append: site.github.build_revision | relative_url }}",
+			"sizes": "128x128",
 			"type": "image/png"
-    },
-    {
-			"src": "{{ '/assets/images/command_prompt.png?v=' | append: site.github.build_revision | relative_url }}",
+		},
+		{
+			"src": "{{ '/assets/images/iconfinder_terminal_x256.png?v=' | append: site.github.build_revision | relative_url }}",
+			"sizes": "256x256",
+			"type": "image/png"
+		},
+		{
+			"src": "{{ '/assets/images/iconfinder_terminal_x512.png?v=' | append: site.github.build_revision | relative_url }}",
 			"sizes": "512x512",
 			"type": "image/png"
 		}
