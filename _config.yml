@@ -134,6 +134,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-titles-from-headings
+  - jekyll-image-size
   - jemoji
 
 
