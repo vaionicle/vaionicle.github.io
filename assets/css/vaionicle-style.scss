@@ -46,17 +46,38 @@ hr {
 	.git-wiki-page-list ul {
 		padding: 6px 20px
 	}
+
+	.git-wiki-page-list {
+		.page-list {
+			list-style: none;
+			list-style-position: inside;
+			padding: 0px 0px;
+
+			.page-list-title:first-child {
+				padding: 0px 0px 0px 0px;
+			}
+
+			.page-list-title {
+				font-weight: bold;
+				padding: 20px 0px 0px 0px;
+			}
+			
+			.page-list-item {
+				padding-left: 10px;
+			}
+		}
+	}
 }
 
 #git-wiki-toc {
 	padding: 10px 0px 0px 0px;
-	list-style: none;
+	list-style: "# ";
 	list-style-position: inside;
 
 	ol {
 		margin: 0px 0px;
 		padding-left: 20px;
-		list-style: lower-greek;
+		list-style: ">_";
 		list-style-position: inside;
 
 		ol {

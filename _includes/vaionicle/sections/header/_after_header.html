@@ -1,0 +1,35 @@
+<div class="git-wiki-page-list">
+
+    <ul class="page-list">
+        {% assign items = site.html_pages | sort: 'path' %}
+        {% assign menu = "" %}
+
+        {% for page in items %}
+            {% if page.is_wiki_page != false and page.sitemap != false and page.dir != "/" %}
+
+                {% if menu != page.dir %}
+                    {% assign menu = page.dir %}
+
+                   <li class="page-list-title"># {{ menu | split: "/" | last | upcase }}</li>
+                {% endif %}
+
+                {% assign title = page.title | default: page.name %}
+                <li class="page-list-item">
+                    >_ <a href="{{ page.url | relative_url }}">{{ title | escape }}</a>
+                </li>
+
+                {% if false %}
+                    <pre>
+                        {{ page.id }}
+                        {{ page.path }}
+                        {{ page.date }}
+                        {{ page.categories }}
+                        {{ page.name }}
+                        {{ page.dir }}
+                    </pre> 
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+</div>

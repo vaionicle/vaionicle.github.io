@@ -24,10 +24,16 @@ theme:
 	rsync -av ./overrides/ ./src/
 
 build:
-	docker run --rm -it --volume="${PWD}:${JEKYLL_PATH}" jekyll/jekyll:${JEKYLL_VERSION} jekyll build
+	docker run --rm -it --name "wiki" \
+		--volume="${PWD}:${JEKYLL_PATH}" \
+		--volume="${PWD}/.bundle:/usr/local/bundle" \
+		jekyll/jekyll:${JEKYLL_VERSION} jekyll build
 
 serve:
-	docker run --rm -it --volume="${PWD}:${JEKYLL_PATH}" --name "wiki" \
+	mkdir -p ${PWD}/.vendor/bundle
+	docker run --rm -it --name "wiki" \
+		--volume="${PWD}/.vendor/bundle:/usr/local/bundle" \
+		--volume="${PWD}:${JEKYLL_PATH}"  \
 		-p 4000:4000 \
 		-p 35729:35729 \
 		jekyll/jekyll:${JEKYLL_VERSION} \
