@@ -104,14 +104,16 @@ hr {
 	}
 }
 
-
-
 footer {
 	padding-left: 40px;
 }
 
 body {
 	padding: 30px;
+}
+
+table {
+	width: fit-content;
 }
 
 // Normal Mode
@@ -141,11 +143,5 @@ body {
 
 	#git-wiki-sidebar {
 		padding-right: 0px;
-	}
-}
-
-@media print, screen and (min-width: 1024px) {
-	table {
-		width: fit-content;
 	}
 }
