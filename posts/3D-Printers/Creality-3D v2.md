@@ -1,18 +1,5 @@
 # Creality Ender 3 v2
 
-## Table of Contents
-
-- [Creality Ender 3 v2](#creality-ender-3-v2)
-  - [Table of Contents](#table-of-contents)
-  - [Specs](#specs)
-    - [Boards](#boards)
-    - [Comparison](#comparison)
-  - [Firmware](#firmware)
-  - [Hardware Upgrades](#hardware-upgrades)
-    - [For Bed](#for-bed)
-  - [Print Upgrades](#print-upgrades)
-  - [Tips](#tips)
-
 ## Specs
 
 |                   Spec List |                     |
