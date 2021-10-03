@@ -59,11 +59,11 @@
 
 > 4.2.2
 
-<img src="/assets/images/ender_3_v2/ender_3_v2_4.2.2_board.jpeg" alt="Ender 3 v2 4.2.2 Motherboard" />
+<img src="/assets/images/ender_3_v2/ender_3_v2_4.2.2_board.jpeg" alt="Ender 3 v2 4.2.2 Motherboard" class="img-small-600"/>
 
 > 4.2.7
 
-<img src="/assets/images/ender_3_v2/ender_3_v2_4.2.7_board.jpeg" alt="Ender 3 v2 4.2.7 Motherboard" />
+<img src="/assets/images/ender_3_v2/ender_3_v2_4.2.7_board.jpeg" alt="Ender 3 v2 4.2.7 Motherboard"  class="img-small-600"/>
 
 ### Comparison
 
