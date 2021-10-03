@@ -59,11 +59,11 @@
 
 > 4.2.2
 
-![4.2.2 image](/assets/images/ender_3_v2/ender_3_v2_4.2.2_board.jpeg "Ender 3 v2 4.2.2 Motherboard")
+<img src="/assets/images/ender_3_v2/ender_3_v2_4.2.2_board.jpeg" alt="Ender 3 v2 4.2.2 Motherboard" />
 
 > 4.2.7
 
-![4.2.7 image](/assets/images/ender_3_v2/ender_3_v2_4.2.7_board.jpeg "Ender 3 v2 4.2.7 Motherboard")
+<img src="/assets/images/ender_3_v2/ender_3_v2_4.2.7_board.jpeg" alt="Ender 3 v2 4.2.7 Motherboard" />
 
 ### Comparison
 
@@ -80,10 +80,11 @@ marlin's code with the configuration of **Creality Ender 3 v2**
 
 ## Hardware Upgrades
 
+In this section you will find any hardware upgrades that I install already.
+
 ### For Bed
 
-- BL Touch
-- CR Touch
+- BL Touch (check also for CL Touch)
 - insulator
 
 ## Print Upgrades
