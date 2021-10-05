@@ -80,23 +80,27 @@ In this section you will find any hardware upgrades that I install already.
 > **BL Touch**
 
 <a href="/assets/images/ender_3_v2/bl_touch.jpg" target="_blank">
-  <img src="/assets/images/ender_3_v2/bl_touch.jpg" alt="BL Touch" class="img-small-600"/>
+  <img src="/assets/images/ender_3_v2/bl_touch.jpg" alt="BL Touch" class="img-small-400"/>
 </a>
 
 [1](https://www.creality3dofficial.com/products/creality-bl-touch "BL Touch from Creality eshop")
 
+[How to install BL-Touch](https://www.youtube.com/watch?v=NDe6QXreBNs)
+
 > **CR Touch**
 
 <a href="/assets/images/ender_3_v2/cr_touch.jpg" target="_blank">
-  <img src="/assets/images/ender_3_v2/cr_touch.jpg" alt="CL Touch" class="img-small-600"/>
+  <img src="/assets/images/ender_3_v2/cr_touch.jpg" alt="CL Touch" class="img-small-400"/>
 </a>
 
 [1](https://www.creality3dofficial.com/products/creality-cr-touch "CR Touch from Creality eshop")
 
+[CR-Touch Vs BL-Touch](https://www.youtube.com/watch?v=CCyTEttj8sk)
+
 > **Insulation Cotton**
 
 <a href="/assets/images/ender_3_v2/insulation_cotton.jpg" target="_blank">
-  <img src="/assets/images/ender_3_v2/insulation_cotton.jpg" alt="Insulation Cotton" class="img-small-600"/>
+  <img src="/assets/images/ender_3_v2/insulation_cotton.jpg" alt="Insulation Cotton" class="img-small-400"/>
 </a>
 
 ## Print Upgrades
