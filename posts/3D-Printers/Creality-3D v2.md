@@ -83,11 +83,15 @@ In this section you will find any hardware upgrades that I install already.
   <img src="/assets/images/ender_3_v2/bl_touch.jpg" alt="BL Touch" class="img-small-600"/>
 </a>
 
-> **CL Touch**
+[1](https://www.creality3dofficial.com/products/creality-bl-touch "BL Touch from Creality eshop")
 
-<a href="/assets/images/ender_3_v2/cl_touch.jpg" target="_blank">
-  <img src="/assets/images/ender_3_v2/cl_touch.jpg" alt="CL Touch" class="img-small-600"/>
+> **CR Touch**
+
+<a href="/assets/images/ender_3_v2/cr_touch.jpg" target="_blank">
+  <img src="/assets/images/ender_3_v2/cr_touch.jpg" alt="CL Touch" class="img-small-600"/>
 </a>
+
+[1](https://www.creality3dofficial.com/products/creality-cr-touch "CR Touch from Creality eshop")
 
 > **Insulation Cotton**
 
