@@ -60,9 +60,8 @@ Until now, Creality release two main board versions of the Ender 3 v2 printer. T
 
 ### Comparison
 
-In the link below you will see the main differences between those two boards.
-
-[Motherboard 422 vs 427 differences](https://www.reddit.com/r/ender3/comments/imhr87/mainboard_422_vs_427_differences/)
+In the link ([Motherboard 422 vs 427 differences](https://www.reddit.com/r/ender3/comments/imhr87/mainboard_422_vs_427_differences/))
+you will see the main differences between those two boards.
 
 ## Firmware
 
