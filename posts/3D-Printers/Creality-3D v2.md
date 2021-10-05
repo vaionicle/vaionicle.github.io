@@ -44,12 +44,13 @@
 
 ### Boards
 
+Until now, Creality release two main board versions of the Ender 3 v2 printer. The v4.2.2 and 4.2.7 (look below).
+
 > 4.2.2
 
 <a href="/assets/images/ender_3_v2/ender_3_v2_4.2.2_board.jpeg" target="_blank">
   <img src="/assets/images/ender_3_v2/ender_3_v2_4.2.2_board.jpeg" alt="Ender 3 v2 4.2.2 Motherboard" class="img-small-600"/>
 </a>
-
 
 > 4.2.7
 
@@ -58,6 +59,8 @@
 </a>
 
 ### Comparison
+
+In the link below you will see the main differences between those two boards.
 
 [Motherboard 422 vs 427 differences](https://www.reddit.com/r/ender3/comments/imhr87/mainboard_422_vs_427_differences/)
 
@@ -70,14 +73,27 @@ marlin's code with the configuration of **Creality Ender 3 v2**
 
 [How to update](https://github.com/mriscoc/Marlin_Ender3v2/wiki/How-to-install-the-firmware)
 
-## Hardware Upgrades
+## Available Hardware Upgrades
 
 In this section you will find any hardware upgrades that I install already.
 
-### For Bed
+> **BL Touch**
 
-- BL Touch (check also for CL Touch)
-- insulator
+<a href="/assets/images/ender_3_v2/bl_touch.jpg" target="_blank">
+  <img src="/assets/images/ender_3_v2/bl_touch.jpg" alt="BL Touch" class="img-small-600"/>
+</a>
+
+> **CL Touch**
+
+<a href="/assets/images/ender_3_v2/cl_touch.jpg" target="_blank">
+  <img src="/assets/images/ender_3_v2/cl_touch.jpg" alt="CL Touch" class="img-small-600"/>
+</a>
+
+> **Insulation Cotton**
+
+<a href="/assets/images/ender_3_v2/insulation_cotton.jpg" target="_blank">
+  <img src="/assets/images/ender_3_v2/insulation_cotton.jpg" alt="Insulation Cotton" class="img-small-600"/>
+</a>
 
 ## Print Upgrades
 
