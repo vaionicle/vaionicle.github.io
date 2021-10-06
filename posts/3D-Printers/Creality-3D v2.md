@@ -104,7 +104,10 @@ In this section you will find any hardware upgrades that I install already.
 
 ## Print Upgrades
 
-https://www.thingiverse.com/thing:4775291
+- [Bltouch Cover Shield](https://www.thingiverse.com/thing:4775291)
+- [Ender 3 Filament Roller Guide](https://www.thingiverse.com/thing:3052488)
+- [Filament Holder Short](https://www.thingiverse.com/thing:4709977)
+
 
 ## Tips
 
