@@ -108,6 +108,10 @@ In this section you will find any hardware upgrades that I install already.
 - [Ender 3 Filament Roller Guide](https://www.thingiverse.com/thing:3052488)
 - [Filament Holder Short](https://www.thingiverse.com/thing:4709977)
 
+## Videos with other upgrades
+
+- [21 First Upgrades For Your Ender 3 V2 // Best Mods For Ender 3 V2
+](https://www.youtube.com/watch?v=JarbS8-R7i4)
 
 ## Tips
 
