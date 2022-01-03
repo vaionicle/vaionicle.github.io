@@ -43,4 +43,3 @@ that can withstand high temperatures.
 
 **Nylon** is a tough and semi-flexible material that offers high impact
 and abrasion resistance. It is an ideal choice for printing durable parts.
-

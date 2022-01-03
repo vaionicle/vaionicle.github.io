@@ -65,16 +65,14 @@ you will see the main differences between those two boards.
 
 ## Firmware
 
-Thanks to [Miguel Risco-Castillo (mriscoc)](https://github.com/mriscoc) we can download the latest version of
-marlin's code with the configuration of **Creality Ender 3 v2**
+Thanks to [Miguel Risco-Castillo (mriscoc)](https://github.com/mriscoc/Marlin_Ender3v2) we can download the latest version of marlin's code with the configuration of **Creality Ender 3 v2**
 
 [mriscoc Ender3v2 Releases](https://github.com/mriscoc/Marlin_Ender3v2/releases)
-
 [How to update](https://github.com/mriscoc/Marlin_Ender3v2/wiki/How-to-install-the-firmware)
 
 ## Available Hardware Upgrades
 
-In this section you will find any hardware upgrades that I install already.
+In this section you will find any hardware upgrades that **I have installed in my Ender3v2**.
 
 > **BL Touch**
 
@@ -110,12 +108,10 @@ In this section you will find any hardware upgrades that I install already.
 
 ## Videos with other upgrades
 
-- [21 First Upgrades For Your Ender 3 V2 // Best Mods For Ender 3 V2
-](https://www.youtube.com/watch?v=JarbS8-R7i4)
+- [21 First Upgrades For Your Ender 3 V2 // Best Mods For Ender 3 V2](https://www.youtube.com/watch?v=JarbS8-R7i4)
 
 ## Tips
 
 - Stick bed
-  - Using Glue Stick [Better Bed Adhesion with a Little Glue Stick
-](https://www.youtube.com/watch?v=02c_8HzOR2A)
-  - Wash it with soap and hot water [THE SECRET TO STICK PLA PARTS TO THE BED](https://youtu.be/Kj4Xz3DwGSQ)
+  - Using Glue Stick [Better Bed Adhesion with a Little Glue Stick](https://www.youtube.com/watch?v=02c_8HzOR2A)
+  - Wash it with soap and hot water [THE SECRET TO STICK PLA PARTS TO THE BED](https://youtu.be/Kj4Xz3DwGSQ) (I prefer this approach)
