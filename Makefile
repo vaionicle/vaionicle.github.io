@@ -13,7 +13,10 @@ wiki.sync:
 	./sync-wiki.sh
 
 clean:
-	rm -rf ${PWD}/_site
+	rm -rf \
+		${PWD}/_site \
+		${PWD}/.vendor \
+		${PWD}/.bundle
 
 theme:
 	wget https://github.com/Drassil/git-wiki-theme/archive/v${THEME_VERSION}.tar.gz
