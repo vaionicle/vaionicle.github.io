@@ -12,6 +12,9 @@ wiki.add:
 wiki.sync:
 	./sync-wiki.sh
 
+clean:
+	rm -rf ${PWD}/_site
+
 theme:
 	wget https://github.com/Drassil/git-wiki-theme/archive/v${THEME_VERSION}.tar.gz
 	tar -xzf v${THEME_VERSION}.tar.gz
@@ -23,7 +26,7 @@ theme:
 
 	rsync -av ./overrides/ ./src/
 
-build:
+build: clean
 	docker run --rm -it --name "wiki" \
 		--volume="${PWD}:${JEKYLL_PATH}" \
 		--volume="${PWD}/.bundle:/usr/local/bundle" \
