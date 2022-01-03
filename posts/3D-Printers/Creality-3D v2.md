@@ -44,7 +44,7 @@
 
 ### Boards
 
-Until now, Creality release two main board versions of the Ender 3 v2 printer. The v4.2.2 and 4.2.7 (look below).
+Until now, Creality has released two main board versions for the Ender 3 v2 printer. The v4.2.2 and 4.2.7 version (look below).
 
 > 4.2.2
 
